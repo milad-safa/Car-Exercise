@@ -12,6 +12,7 @@
 
 .logo {
     margin: 40px 16px 40px 40px;
+    cursor: pointer;
 }
 
 .search-box {
@@ -50,8 +51,13 @@
 .user-icon {
     width: 32px;
     height: 32px;
-    background-color: gray;
+    background-color: rgb(80, 80, 80);
     border-radius: 16px;
+}
+
+.user-arrow i {
+    font-size: 15px;
+    margin-left: 5px;
 }
 
 .shop {
@@ -59,9 +65,16 @@
     align-items: center;
 }
 
+.shop i {
+    margin-top: -10px;
+    font-size: 25px;
+}
+
 .shop-icon-line {
     margin-left: 16px;
     margin-right: 8px;
+    background: black;
+    border-radius: 10px;
 }
 
 .location {
@@ -152,6 +165,11 @@
     padding-left: 16px;
     border-radius: 24px;
     font-weight: bold;
+    background: #eff1fe;
+}
+
+.one .texts button i {
+    font-weight: bolder;
 }
 
 .one .image-car {
