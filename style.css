@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Search-bar {
+    display: flex;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    width: 450px;
+    height: 40px;
+    background-color: #dfe3fc;
+    border-radius: 32px;
+    padding: 8px;
+    transition: all 0.3s;
+}
+
+.search-input {
+    border: none;
+    width: 400px;
+    background: 0;
+    font-size: 16px;
+    font-weight: 600;
+    outline: 0;
+}
+
+.search-icon {
+    padding-right: 8px;
+}
+
+.logo {
+    margin: 40px 16px 40px 40px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.user-arrow {
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.user-icon {
+    background-color: gray;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin-right: 4px;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+}
+
+.shop-icon-sabad {
+    margin-left: 8px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.location img {
+    margin-right: 12px;
+}
+
+.location p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.list-item {
+    margin-right: 32px;
+    font-size: 20px;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    opacity: 50%;
+    border-bottom: 2px solid #aebaf800;
+    transition: all 0.3s;
+}
+
+.list-item a:hover {
+    border-bottom: 2px solid #aebaf8;
+    color: black;
+    opacity: 100%;
+}
+
+#Home {
+    border-bottom: 2px solid #AEBAF8;
+    color: black;
+    opacity: 100%;
+}
+
+.main{
+    margin: 40px 168px;
+}
+
+.main .one{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.one .texts h1{
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 16px;
+}
+
+.one .texts p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.one .texts button{
+    width: 186px;
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 24px;
+    font-weight: bold;
+}
+
+.one .image-car{
+    position: absolute;
+    left: 38%;
+}
