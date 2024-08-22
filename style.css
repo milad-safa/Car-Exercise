@@ -83,11 +83,8 @@
     margin-left: 40px;
 }
 
-.location img {
-    margin-right: 12px;
-}
-
 .location p {
+    margin-left: 12px;
     font-size: 18px;
     font-weight: 600;
 }
@@ -101,8 +98,8 @@
 .navbar-list {
     display: flex;
     align-items: center;
-    list-style: none;
     margin-right: 10px;
+    list-style: none;
 }
 
 .list-item {
@@ -112,16 +109,16 @@
 
 .list-item a {
     text-decoration: none;
+    font-weight: 600;
     color: black;
-    font-weight: 700;
-    opacity: 50%;
     border-bottom: 2px solid #aebaf800;
+    opacity: 50%;
     transition: all 0.3s;
 }
 
 .list-item a:hover {
-    border-bottom: 2px solid #aebaf8;
     color: black;
+    border-bottom: 2px solid #aebaf8;
     opacity: 100%;
 }
 
@@ -142,30 +139,29 @@
 }
 
 .one .texts h1 {
+    margin-bottom: 16px;
     font-size: 48px;
     font-weight: bold;
     letter-spacing: 4px;
-    margin-bottom: 16px;
 }
 
 .one .texts p {
+    margin-bottom: 24px;
     font-size: 16px;
     font-weight: 600;
-    margin-bottom: 24px;
 }
 
 .one .texts button {
-    width: 186px;
-    height: 40px;
-    border: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 16px;
-    padding-left: 16px;
+    width: 186px;
+    height: 40px;
+    padding: 0 16px 0 16px;
+    background: #eff1fe;
     border-radius: 24px;
     font-weight: bold;
-    background: #eff1fe;
+    border: none;
 }
 
 .one .texts button i {
